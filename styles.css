@@ -23,10 +23,10 @@ header h2 {
 	padding: .5em ;
 }
 
-h1 { color: #002ab5ff ; }
-h2 { color: #005cddff ; }
-h3 { color: #0080ffff ; }
-h4 { color: #0daaffff ; }
+h1 { color: chocolate ; }
+h2 { color: sandybrown ; }
+h3 { color: tan ; }
+h4 { color: wheat ; }
 h5, h6 { color: cornsilk ; }
 
 strong {
@@ -47,11 +47,15 @@ li {
 dt {
 	font-weight: bold ;
 }
+
 body {
 	background: #1b1b1b ;
 	color: #fff ;
 	margin-bottom: 200px ;
-	font-family: "Garamond", Georgia, serif, 'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji';
+	font-family: "Garamond", Georgia, serif, 'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji' ;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 aside {
@@ -61,7 +65,7 @@ aside {
 }
 
 main {
-	max-width: 600px ;
+	max-width: 800px ;
 	margin: auto ;
 }
 
@@ -95,23 +99,23 @@ footer {
 	clear: both ;
 }
 
-#tag_crypto:before { content: '💰' ; }
-#tag_economics:before { content: "📈" ; }
-#tag_lifestyle:before { content: "👨‍👩‍👦" ; }
-#tag_language:before { content: "🗣️" ; }
-#tag_linux:before { content: "🐃" ; }
-#tag_personal:before { content: "😎" ; }
-#tag_philosophy:before { content: "🎓" ; }
-#tag_religion:before { content:"☦️" ; }
-#tag_science:before { content:"🥼" ; }
-#tag_software:before { content: "🖥️" ; }
-#tag_technology:before { content: "⚙️" ; }
-#tag_tutorial:before { content: "📖" ; }
-#tag_tradition:before { content: "📜" ; }
-#tag_updates:before { content: "🆕" ; }
-#tag_politics:before { content: "👑" ; }
-#tag_history:before { content: "⏳" ; }
-
+#tag_crypto:before { content: 'ðŸ’°' ; }
+#tag_economics:before { content: "ðŸ“ˆ" ; }
+#tag_lifestyle:before { content: "ðŸ‘¨â€ðŸ‘©â€ðŸ‘¦" ; }
+#tag_language:before { content: "ðŸ—£ï¸" ; }
+#tag_linux:before { content: "ðŸƒ" ; }
+#tag_personal:before { content: "ðŸ˜Ž" ; }
+#tag_philosophy:before { content: "ðŸŽ“" ; }
+#tag_religion:before { content:"â˜¦ï¸" ; }
+#tag_science:before { content:"ðŸ¥¼" ; }
+#tag_software:before { content: "ðŸ–¥ï¸" ; }
+#tag_technology:before { content: "âš™ï¸" ; }
+#tag_tutorial:before { content: "ðŸ“–" ; }
+#tag_tradition:before { content: "ðŸ“œ" ; }
+#tag_updates:before { content: "ðŸ†•" ; }
+#tag_politics:before { content: "ðŸ‘‘" ; }
+#tag_history:before { content: "â³" ; }
+#tag_recommended:before { content: "ðŸŒŸ" ; }
 
 .menuactive li {
 	background: #111 ;
@@ -451,10 +455,6 @@ blockquote {
 	white-space: nowrap ;
 }
 
-
-
-
-
 #linklist {
 	text-align: center ;
 }
@@ -514,5 +514,39 @@ blockquote {
 
 .menuurl {
 	color: green ;
+}
+
+.articlelist {
+	font-size: 125% ;
+}
+
+.articlelist li {
+	padding-bottom: .25em ;
+}
+
+#inlinelinker {
+	font-size: x-large ;
+}
+
+#inlinelinker .desc {
+	display: inline-block ;
+	color: gray ;
+}
+
+#inlinelinker li:hover {
+	outline: 1px dotted gold ;
+}
+
+#iconmenu {
+	list-style: none ;
+	text-align: center ;
+	font-size: 48pt ;
+	margin: 0 ;
+}
+
+#iconmenu li {
+	display: inline ;
+	padding: .1em ;
+	margin: .1em ;
 }
 
